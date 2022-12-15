@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+   } 
+   body {
+    background-image: url(pexels-photo-414660.webp);
+   }
+   @media only screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+    }
+    
+   }
+   .container {
+    position: fixed;
+    height:50px;
+   }
+   .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    background-image:url(pexels-photo-1182338.jpeg) ;
+   }
+   .img {
+    position: fixed;
+    border-radius: 80%;
+    margin-top: 5vh;
+    margin-left:10vw;
+   }
+   img {
+    width: 15vw;
+    height: 30vh;
+    border-radius: 80%;
+   }
+   .content {
+    margin-top: 20vh;
+    margin-left: 25vw;
+    border: 0px solid;
+    width: 60vw;
+    height: 20vh;
+    color: palegoldenrod;
+   }
+   p {
+    text-align:left;
+    color: black;
+   }
+   .try {
+    border: 0px solid;
+    margin-left: 5vw;
+    margin-top: 40vh;
+    width: 25vw;
+    height: 5vh;
+   }
+   h1 {
+    background-color:red;
+   }
+   .background {
+    border: 0px solid;
+    margin-left: 5vw;
+    margin-top: 0vh;
+    width: 25vw;
+    height: 5vh;
+   }
+   h3 {
+    color: black;
+   }
+   .skills {
+    border: 0px solid;
+    margin-left: 5vw;
+    margin-top: 21vh;
+    width: 25vw;
+    height: 5vh;
+   }
+   .professional {
+    border: 0px solid;
+    margin-left: 38vw;
+    margin-top: 40vh;
+    width: 25vw;
+    height: 5vh;
+   }
+   .work {
+    border: 0px solid;
+    margin-left: 38vw;
+    margin-top: 20vh;
+    width: 25vw;
+    height: 5vh;
+   }
+    .objectives {
+    border: 0px solid;
+    margin-left:70vw;
+    margin-top: 40vh;
+    width: 25vw;
+    height: 5vh;    
+    }
+    li {
+        color: black;
+    }
+    .contact {
+        border: 0px solid;
+        margin-left:70vw;
+        margin-top: 60vh;
+        width: 25vw;
+        height: 5vh;    
+    }
+    .footer {
+    border: 0px solid;
+    margin-left:0vw;
+    margin-top: 90vh;
+    width: 100vw;
+    height: 5vh;  
+    }
+    footer {
+        text-align: center;
+        background-color: aquamarine;
+    }
+    cherry {
+        text-align: left;
+    }
+   
